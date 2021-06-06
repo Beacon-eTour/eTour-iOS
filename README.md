@@ -13,14 +13,15 @@ https://flutter.dev/docs/development/add-to-app/ios/project-setup
 1. Follow instructions on the [Flutter module repo](https://github.com/Beacon-eTour/eTour-flutter) to run that.
 2. Clone this repo. Note that the project is setup so that this project and the Flutter module should live in the same root folder like this:
 ```some/path/
-├── ETourFlutterModule/
+├── eTour-flutter/
 │   └── .ios/
 │       └── Flutter/
 │         └── podhelper.rb
-└── ETouriOS/
+└── eTour-ios/
     └── Podfile
 ```
 3. Install Xcode (if you don't have that yet)
 4. The project uses CocoaPods as dependency manager, if you don't have that, refer to the [installation instructions](https://cocoapods.org/). 
 5. Run ``pod install`` on the ETouriOS folder
-6. Run the app on Xcode
+6. Open eTour.xcworkspace on Xcode
+7. Run the app on Xcode
